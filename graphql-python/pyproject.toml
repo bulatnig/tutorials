@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "graphql-python"
+version = "0.1.0"
+description = "GraphQL Python tutorial"
+authors = ["Bulat Nigmatullin <bulatnig@protonmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^3.2.3"
+graphene-django = "^3.0.0b7"
+django-filter = "^2.4.0"
+django-graphql-jwt = "^0.3.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
