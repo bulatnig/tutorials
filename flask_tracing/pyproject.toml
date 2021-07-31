@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "flask_tracing"
+version = "0.1.0"
+description = ""
+authors = ["Bulat Nigmatullin <bulat.nigmatullin@gospace.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+Flask = "1.1.1"
+requests = "2.22.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
